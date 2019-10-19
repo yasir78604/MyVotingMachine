@@ -74,7 +74,6 @@ int main()
 	fprintf(fp,"age         :   %d\n",age);
 	fprintf(fp,"party       :   %s\n",partyName);
     fclose(fp);
-
     if(fscanf(fp,"%d",age) == 18)
     {
        fscanf(fp,"%s",mobile);
